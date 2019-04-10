@@ -1,0 +1,74 @@
+body {
+    width:100%;
+    font-size: 12px;
+}
+
+
+.init
+{
+    background-image: url('../back.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    top: 0; 
+
+}
+.login-page
+{
+    background-image: url('../background.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    top: 0; 
+
+}
+.input {
+    width: 300px;
+    background: linear-gradient(to right, #000, #000) 5px calc(100% - 5px)/calc(100% - 10px) 2px no-repeat;
+    /* <5px calc(100% - 5px)> : position of the gradient [5px from left and 5px from bottom  */
+    /* <calc(100% - 10px) 2px> : size of the gradient [width:100%-10px height:2px] */
+    background-color: #fcfcfc;
+    border: 1px solid;
+    padding: 10px;
+  }
+.div-borda{
+    background-color: rgba(92, 91, 91, 0.15);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#faf8f8;
+    border-width: 5px;
+    color:white;
+    box-shadow:0 1px 0 #cfcfcf;
+    
+}
+.mxk{
+    width:100%;
+	color:#fff;
+	display:block;  
+}
+.lol{
+    margin-right: 30px;
+}
+.ipt{
+    border: 1px solid;
+    padding: 10px;  
+}
+.tf-custom{
+    width: 50px;
+    padding: 10px; 
+}
